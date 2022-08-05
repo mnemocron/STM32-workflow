@@ -26,6 +26,8 @@ At least the following keywords must be present:
 The keyword `@see` or `@note` is desirable when referencing other software projects, datasheets, or other sources.
 
 **Example:**
+
+```c
 /**
   * @brief  reads from internal registers
   * @param  *ads pointer to ads handle
@@ -37,6 +39,7 @@ The keyword `@see` or `@note` is desirable when referencing other software proje
   * @todo   fix issue #5
   */
 uint8_t ADS125X_Register_Read(ADS125X_t *ads, uint8_t reg, uint8_t* pData, uint8_t n)
+```
 
 ## File Header
 
